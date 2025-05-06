@@ -1,0 +1,92 @@
+.banner{
+    min-height: 500px;
+}
+.banner::before{
+    position: absolute;
+    content:"";
+    background: url("../../../public/images/curvy-2.png") no-repeat center center;
+    background-size: cover;
+    width:100%;
+    height:32px;
+    top:-2px;
+    left:0;
+}
+.banner_mask_wrap{
+    right:20px;
+    bottom:20px;
+    font-family: 'Amita', cursive;
+}
+.banner__header h3, .banner__description p{
+    text-align: left;
+}
+.banner__header h3{
+    font-size: 42px;
+    color:#a91b60;
+}
+.banner__description p{
+    font-size: 25px;
+    color:#FF0080;
+}
+.banner__description{
+    padding:30px 80px 20px 0;
+}
+.btn-banner{
+    background:#a91b60;
+    color:#fff;
+    padding: 10px 30px;
+    border-radius: 27px;
+}
+.btn-banner:hover{
+    background-color: #FF0080;
+    color:#fff;
+}
+.carousel-control-next span.visually-hidden,
+.carousel-control-prev span.visually-hidden {
+    display:none;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #a91b60;
+    padding:40px;
+    border-radius: 50%;
+}
+.carousel-control-prev-icon {
+    background-image: url("../../../public/images/arivals-pic.jpg");
+}
+.carousel-control-next-icon {
+    background-image: url("../../../public/images/recipe-1.png");
+}
+.carousel-indicators{
+    bottom:10px;
+}
+.carousel-indicators > button{
+    margin: 0 5px;
+    background-color: #EBE0D0;
+    padding: 1px 20px;
+}
+.carousel-indicators button.active{
+    background-color: #a91b60;
+}
+.banner__slider__1{
+    background-color: rgba(0, 0, 0, 0);
+    background: url("../../../public/images/banner-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 500px;
+}
+.banner__slider__2{
+    background-color: rgba(0, 0, 0, 0);
+    background: url("../../../public/images/banner-2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 500px;
+}
+.banner__slider__3{
+    background-color: rgba(0, 0, 0, 0);
+    background: url("../../../public/images/banner-3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 500px;
+}

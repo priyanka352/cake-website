@@ -1,0 +1,147 @@
+ul, ol {
+    list-style: none;
+}
+.registered_user{
+    padding-inline-start: 0px;
+    padding-top:10px;
+}
+.quick__contact__det{
+    padding-left: 0;
+}
+.registered_user li a, .registered_name {
+    font-size: 25px;
+    font-weight: 600;
+    color: #a91b60;
+    text-decoration: none;
+}
+.signin-banner{
+    background: url("../../../public/images/bannerlogin.jpg");
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.signin-banner::before{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:24px;
+    background-image: url("../../../public/images/curvy1.png");
+    background-size: 80px;
+    background-repeat: repeat-x;
+    background-position: center;
+    left:0;
+    top:-9px;
+    transform:rotate(0deg);
+    z-index: 5;
+}
+.signin-banner::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:20px;
+    background-image: url("../../../public/images/curvy1.png");
+    background-size: 80px;
+    background-repeat: repeat-x;
+    background-position: center;
+    bottom:-6px;  
+    left:0;
+    transform: rotate(180deg); 
+    z-index: 4;
+}
+.signin-content::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+}
+.col-header{
+    margin:100px 0;
+}
+.col-header h2{
+    color:#A91B60;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+.btn-login{
+    background-color: #a91b60;
+    color: #fff;
+    padding: 10px 30px;
+}
+.signinblock{
+    background: url("../../../public/images/loginwidebg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+ .signin__form{
+    margin: 50px 0;
+    padding: 80px;
+    background-color: #0c0116;
+    box-shadow: 0px 0px 10px 0px rgb(116, 119, 114);
+    border-radius: 10px;
+} 
+.signin__form .form-control{
+    border: 1.5px solid rgb(109, 87, 121);
+    background: #19052c;
+    color:#fff;
+    border-radius:20px;
+}
+.signin__form .form-group label{
+    color:#fff;
+    margin:15px 0; 
+}
+.signin__form .form-group{
+    text-align: left;
+}
+.quick__contact{
+    font-family: 'Amita', cursive;
+    margin:50px 0;
+    padding: 50px 15px;
+}
+.quick__contact p, .quick__contact h6{
+    font-size: 20px;
+}
+.quick__contact h3{
+    font-size: 35px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.text-cuppink, .icon-box a:hover{
+    color:#a91b60;
+}
+.icon-box-wrapper{
+    margin: 0 55px 30px 30px;
+}
+.icon-box a{
+    font-size: 20px;
+}
+@media(max-width:1024px){
+    .signin-banner::after{
+        bottom:-7px;
+    }
+}
+@media(max-width:480px){
+    .quick__contact h3 {
+        font-size: 30px;
+    }
+    .quick__contact p, .quick__contact h6 {
+        font-size: 18px;
+    }
+    .icon-box-wrapper {
+        margin: 0 30px 30px 30px;
+    }
+}
+@media(max-width:375px){
+    .signin__form .form-control::placeholder{
+        font-size: 10px;
+    } 
+} 
+  
+
+      

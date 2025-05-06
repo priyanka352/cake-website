@@ -1,0 +1,48 @@
+.blog-details h4, .blog-details h5, .blog-details h6{
+    text-align: left;
+    color:#FF5C4D;
+}
+.blog-details h5{
+    color:#FF0080;
+}
+.blog-details h6{
+    color: #e7378f;
+}
+.blog-details{
+    padding: 10px 25px;
+    background-color: #fff;
+}
+.blog-image{
+    position:relative;
+    overflow:hidden;
+    z-index: 2;
+}
+.blog-image::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.blog-image:hover::before{
+    opacity:1;
+}
+.blog-image:hover img{
+    transform: scale(1.05);
+}
+.blog-details{
+    background-color: #fff;
+    box-shadow: 1px 2px 2px #b6b9bb;
+}
+.blogdetailsblock{
+    background: url("../../../public/images/deal-banner.png") center no-repeat;
+    background-size: cover;
+}
+.blog-image img{
+    width:100%;
+}

@@ -1,0 +1,49 @@
+.testimonial-panel{
+    box-shadow: 0 2px 3px 0 rgb(40 40 40 / 26%);
+    border-radius: 5px;
+    padding: 40px;
+}
+.testimonial-panel::before{
+    position: absolute;
+    content:"";
+    width:16px;
+    height:32px;
+    top:0;
+    left:30px;
+    background:url("../../../public/images/ribbon.png");
+}
+.testimonial-body p{
+    font-size: 23px;
+    font-family: 'Amita', cursive;;
+    font-weight: 400;
+    color: #FF0080;;
+    line-height: 32px;
+    margin-bottom: 23px
+}
+.testimonial-image{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+.testimonial-image img{
+    width:46px !important;
+    height:46px;
+    border-radius: 50%;
+}
+.testimonial-image::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2px solid #FF5C4D;
+    top: -7px;
+    /* left: 45%; */
+    opacity: 0.8;
+}
+.testimonial-author h4 i{
+    font-size: 13px;
+    color: #a5a5a5;
+    font-weight: 500;
+    margin-bottom: 0;
+}

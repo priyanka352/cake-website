@@ -1,0 +1,43 @@
+.cake-feature-item{
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 0px rgb(40 40 40 / 8%);
+    padding-bottom: 30px;
+}
+.cake_text{
+    padding: 10px;
+    color:#FF5C4D;
+}
+.cake_text h3{
+    font-size: 18px;
+}
+.btn-feature-cake, .btn-feature-cake:hover{
+    background-color: #a91b50;
+    color:white;
+}
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next{
+    background: #a91b50 !important;
+    color: #fff !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin:20px 10px;
+}
+.owl-nav{
+    position: absolute;
+    top: -65px;
+    right: -100px;
+}
+.cake-image-overlay{
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: rgb(169, 27, 80, 0.5);
+  opacity: 0;
+}
+.cake-image:hover .cake-image-overlay{
+    width: 100%;
+    opacity: 0.5;
+}
